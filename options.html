@@ -1,18 +1,18 @@
 <html>
 <head>
-<title>My Test Extension Options</title>
+<title>Time Remind Extension Setting</title>
 </head>
 <body>
 <table id="table0">
-  <tr><td><input type="checkbox" id="power" value=1></td><td>启用定时提醒</td><td></td></tr>
-  <tr><td>提醒日期：</td><td><input type="checkbox" id="monday" value=1></td><td>周一</td></tr>
-  <tr><td></td><td><input type="checkbox" id="tuesday" value=2></td><td>周二</td></tr>
-  <tr><td></td><td><input type="checkbox" id="wednesday" value=3></td><td>周三</td></tr>
-  <tr><td></td><td><input type="checkbox" id="thursday" value=4></td><td>周四</td></tr>
-  <tr><td></td><td><input type="checkbox" id="friday" value=5></td><td>周五</td></tr>
-  <tr><td></td><td><input type="checkbox" id="saturday" value=6></td><td>周六</td></tr>
-  <tr><td></td><td><input type="checkbox" id="sunday" value=0></td><td>周七</td></tr>
-  <tr><td>提醒时间段：</td>
+  <tr><td><input type="checkbox" id="power" value=1></td><td>enable time remind</td><td></td></tr>
+  <tr><td>remind week：</td><td><input type="checkbox" id="sunday" value=0></td><td>sunday</td></tr>
+  <tr><td></td><td><input type="checkbox" id="monday" value=1></td><td>monday</td></tr>
+  <tr><td></td><td><input type="checkbox" id="tuesday" value=2></td><td>tuesday</td></tr>
+  <tr><td></td><td><input type="checkbox" id="wednesday" value=3></td><td>wednesday</td></tr>
+  <tr><td></td><td><input type="checkbox" id="thursday" value=4></td><td>thursday</td></tr>
+  <tr><td></td><td><input type="checkbox" id="friday" value=5></td><td>friday</td></tr>
+  <tr><td></td><td><input type="checkbox" id="saturday" value=6></td><td>saturday</td></tr>
+  <tr><td>remind hour：</td>
   <td>from
     <select id="start_time">
     </select>
@@ -22,7 +22,8 @@
     </select>
   </td>
   </tr>
-  <tr><td>提醒时间：</td>
+  <tr id="ignore_hour"><td>ignore hour：</td></tr>
+  <tr><td>remind minute：</td>
   <td>
     <select id="minute">
     </select>
