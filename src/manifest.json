@@ -3,7 +3,7 @@
 
   "name": "Time Remind",
   "description": "A Time Remind Extension",
-  "version": "1.1",
+  "version": "1.2",
   "background": {
     "scripts": [
       "background.js"
@@ -11,6 +11,7 @@
   },
   "offline_enabled": true,
   "options_page": "options.html",
+  "browser_action": {},
   "permissions": [
     "notifications",
     "background"
